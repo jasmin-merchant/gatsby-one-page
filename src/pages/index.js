@@ -103,59 +103,47 @@ const IndexPage = () => (
         <section id="portfolio">
             <div className="container-fluid p-0">
                 <div className="row no-gutters">
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg1} alt="" />
                           <div className="portfolio-box-caption">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg2} alt="" />
                           <div className="portfolio-box-caption">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg3} alt="" />
                           <div className="portfolio-box-caption">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg4} alt="" />
                           <div className="portfolio-box-caption">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg5} alt="" />
                           <div className="portfolio-box-caption">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <a className="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
+                    <div className="col-lg-4 col-sm-6 portfolio-box">
                           <img className="img-fluid" src={portfolioImg6} alt="" />
                           <div className="portfolio-box-caption p-3">
                               <div className="project-category text-white-50">Category</div>
                               <div className="project-name">Project Name</div>
                           </div>
-                        </a>
                     </div>
                 </div>
             </div>
