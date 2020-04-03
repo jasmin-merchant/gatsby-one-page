@@ -183,7 +183,7 @@ const IndexPage = () => (
                     <div className="col-12">
                       <div className="form-group">
                         <label for='message'>Message</label>
-                        <textarea className='form-control' />
+                        <textarea className='form-control' name='message' />
                       </div>
                     </div>
                     <div className="col-12">
