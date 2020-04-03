@@ -166,7 +166,7 @@ const IndexPage = () => (
                     </div>
                 </div>
                 <form method="POST" className="form" name="contact-form" action="#" data-netlify="true">
-                 <input type="hidden" name="form-name" value="contact" />
+                 <input type="hidden" name="form-name" value="contact-form" />
                   <div className="row">
                     <div className="col-12 col-sm-6">
                       <div className="form-group">
