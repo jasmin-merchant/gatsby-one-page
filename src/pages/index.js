@@ -165,6 +165,34 @@ const IndexPage = () => (
                         <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
                     </div>
                 </div>
+                <form method="POST" className="form" name="contact-form" action="#" data-netlify="true">
+                 <input type="hidden" name="form-name" value="contact" />
+                  <div className="row">
+                    <div className="col-12 col-sm-6">
+                      <div className="form-group">
+                        <label for='name'>Name</label>
+                        <input type="text" name='name' class='form-control' />
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-6">
+                      <div className="form-group">
+                        <label for='email'>Email</label>
+                        <input type="email" name='email' class='form-control' />
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="form-group">
+                        <label for='message'>Message</label>
+                        <textarea className='form-control' />
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="form-group">
+                        <input type='submit' value="Send Message" className="btn btn-primary" />
+                      </div>
+                    </div>
+                  </div>
+                </form>
                 <div className="row">
                     <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                         <FaPhone className="display-4 mb-3 text-muted" />
